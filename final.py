@@ -15,14 +15,14 @@ from sklearn.model_selection import train_test_split
 
 # Définir la couleur de fond en rose
 # Affichage de l'interface utilisateur
-st.markdown("<h1 style='text-align: center; color: blue;'>Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>Chatbot</h1>", unsafe_allow_html=True)
 st.markdown(
     """
     <style>
     .stApp {
         background-image:url('https://w.wallhaven.cc/full/39/wallhaven-398lo3.png');
         background-size: cover;
-        color: blue ;
+        color: red ;
     }
     </style>
     """,
